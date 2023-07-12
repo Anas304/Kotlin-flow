@@ -34,9 +34,9 @@ class MainActivity : ComponentActivity() {
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
-                        text = "App explodes in ${timer.value}",
+                        text = "${timer.value}",
                         fontWeight = FontWeight.Bold,
-                        fontSize = 30.sp,
+                        fontSize = 40.sp,
                         color = MaterialTheme.colorScheme.surface
                     )
                 }
